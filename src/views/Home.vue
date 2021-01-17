@@ -68,12 +68,12 @@ export default {
       font-size: 20px;
     }
   }
-  .hello{
-        @media (max-width: 350px) {
-      font-size: 32px;
+  .hello {
+    @media (max-width: 350px) {
+      font-size: 34px;
     }
   }
-  .name{
+  .name {
     @media (max-width: 350px) {
       font-size: 32px;
     }

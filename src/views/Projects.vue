@@ -5,10 +5,10 @@
       <div class="grid-item">
         <img src="../assets/todo.png" alt="" />
         <button class="app-links">
-          <a href="https://easiest-todo-app.netlify.app/">Try it out!</a>
+          <a href="https://easiest-todo-app.netlify.app/" target="_blank">Try it out!</a>
         </button>
         <button class="app-source">
-          <a href="https://github.com/Szqii/Easiest-Todo-App"
+          <a href="https://github.com/Szqii/Easiest-Todo-App" target="_blank"
             >See source code</a
           >
         </button>
@@ -16,10 +16,10 @@
       </div>
       <div class="grid-item">
         <img src="../assets/vuerld.png" alt="" /><button class="app-links">
-          <a href="https://vuerld.netlify.app/">Try it out!</a>
+          <a href="https://vuerld.netlify.app/" target="_blank">Try it out!</a>
         </button>
         <button class="app-source">
-          <a href="https://github.com/Szqii/Vuerld">See source code</a>
+          <a href="https://github.com/Szqii/Vuerld" target="_blank">See source code</a>
         </button>
         <p class="p-1">
           App that is showing informations of all countries in the world.
@@ -27,9 +27,9 @@
       </div>
       <div class="grid-item">
         <img src="../assets/wwwa.png" alt="" /><button class="app-links">
-          <a href="https://wwwa.netlify.app/">Try it out!</a> !</button
+          <a href="https://wwwa.netlify.app/" target="_blank">Try it out!</a> !</button
         ><button class="app-source">
-          <a href="https://github.com/Szqii/Worldwide-Weather-App"
+          <a href="https://github.com/Szqii/Worldwide-Weather-App" target="_blank"
             >See source code</a
           >
         </button>
@@ -37,7 +37,7 @@
       </div>
       <div class="grid-item">
         <img src="../assets/product.png" alt="" /><button class="app-source">
-          <a href="https://github.com/Szqii/Product-App">See source code</a>
+          <a href="https://github.com/Szqii/Product-App" target="_blank">See source code</a>
         </button>
         <p class="p-1">App that provides product operations on the database.</p>
       </div>
