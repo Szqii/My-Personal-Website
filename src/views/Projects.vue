@@ -27,7 +27,7 @@
       </div>
       <div class="grid-item">
         <img src="../assets/wwwa.png" alt="" /><button class="app-links">
-          <a href="https://wwwa.netlify.app/" target="_blank">Try it out!</a> !</button
+          <a href="https://wwwa.netlify.app/" target="_blank">Try it out!</a></button
         ><button class="app-source">
           <a href="https://github.com/Szqii/Worldwide-Weather-App" target="_blank"
             >See source code</a
