@@ -56,6 +56,7 @@ a {
   transition-duration: 0.4s;
   transition-timing-function: linear;
   box-shadow: 0px 0 0 #520365 inset;
+  
   &:hover {
     box-shadow: 600px 0 0 #520365 inset;
   }
