@@ -4,30 +4,42 @@
     <div class="container-fluid mt-5 row d-flex justify-content-center">
       <div class="grid-item">
         <img src="../assets/todo.png" alt="" />
-        <button class="app-links">Try it out!</button>
-        <button class="app-source">See source code</button>
-        <p>A simple to-do app using local storage.</p>
+        <button class="app-links">
+          <a href="https://easiest-todo-app.netlify.app/">Try it out!</a>
+        </button>
+        <button class="app-source">
+          <a href="https://github.com/Szqii/Easiest-Todo-App"
+            >See source code</a
+          >
+        </button>
+        <p class="p-1">A simple to-do app using local storage.</p>
       </div>
       <div class="grid-item">
         <img src="../assets/vuerld.png" alt="" /><button class="app-links">
-          Try it out!
+          <a href="https://vuerld.netlify.app/">Try it out!</a>
         </button>
-        <button class="app-source">See source code</button>
-        <p>
+        <button class="app-source">
+          <a href="https://github.com/Szqii/Vuerld">See source code</a>
+        </button>
+        <p class="p-1">
           App that is showing informations of all countries in the world.
         </p>
       </div>
       <div class="grid-item">
         <img src="../assets/wwwa.png" alt="" /><button class="app-links">
-          Try it out!</button
-        ><button class="app-source">See source code</button>
-        <p>App that is showing weather in entered city.</p>
+          <a href="https://wwwa.netlify.app/">Try it out!</a> !</button
+        ><button class="app-source">
+          <a href="https://github.com/Szqii/Worldwide-Weather-App"
+            >See source code</a
+          >
+        </button>
+        <p class="p-1">App that is showing weather in entered city.</p>
       </div>
       <div class="grid-item">
         <img src="../assets/product.png" alt="" /><button class="app-source">
-          See source code
+          <a href="https://github.com/Szqii/Product-App">See source code</a>
         </button>
-        <p>App that provides product operations on the database.</p>
+        <p class="p-1">App that provides product operations on the database.</p>
       </div>
     </div>
   </div>
@@ -60,6 +72,7 @@ img {
     border: none;
     border-radius: 10px;
     transition: 0.3s;
+    box-shadow: 0 0 24px 8px rgba($color: #520365, $alpha: 0.4);
     &:hover {
       color: #fff;
       transform: scale(1.1);
@@ -69,20 +82,20 @@ img {
       padding: 0.3rem;
     }
     @media (max-width: 350px) {
-        padding: .1rem;
+      padding: 0.1rem;
     }
   }
   .app-links {
     left: 50px;
     @media (max-width: 500px) {
-        bottom: 70px;
+      bottom: 70px;
       left: 5px;
     }
   }
   .app-source {
     right: 50px;
     @media (max-width: 500px) {
-        bottom: 70px;
+      bottom: 70px;
       right: 5px;
     }
   }
